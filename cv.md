@@ -30,7 +30,7 @@ I would like to take part in the role of a frontend developer in projects that i
 
 ### <u>Sample Code:</u>
 
-CODEWARS</br>
+CODEWARS<br>
 **Title: List Filtering.**
 *In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.*
 
