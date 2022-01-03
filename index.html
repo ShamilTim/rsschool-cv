@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="column">
+			<img src="img/avatar.png" class="header__avatar" alt="Header avatar">
+		</div>
+		<div class="column column_main">
+			<h1>Timirgaleev Shamil</h1>
+			<h2>Web-developer</h2>
+		</div>
+	</header>
+	<main class="main">
+		<div class="column">
+			<section class="document-section contact">
+				<h2>Contacts</h2>
+				<ul>
+					<li class="contact__block">
+						<div class="contact__image contact__image_github"></div>
+						<div><a href="https://github.com/shamiltim" target="_blank" class="contact__link">github.com/shamiltim</a></div>
+					</li>
+					<li class="contact__block">
+						<div class="contact__image contact__image_email"></div>
+						<div><a href="mailto:shamil.86bee@mail.ru" class="contact__link">shamil.86bee@mail.ru</a></div>
+					</li>
+					<li class="contact__block">
+						<div class="contact__image contact__image_map"></div>
+						<div>Russia, Kazan</div>
+					</li>
+				</ul>
+			</section>
+			<section class="document-section">
+				<h2>Education</h2>
+				<ul class="skills__wrapper">
+					<li>Kazan National Research Technical University - KAI</li>
+				</ul>
+			</section>
+			<section class="document-section">
+				<h2>Courses</h2>
+				<ul class="skills__wrapper">
+					<li>"Introduction to JavaScript" on BARS Group</li>
+					<li>RS Schools Course "JavaScript/Front-end.</li>
+					<li>"Python development" on IT School</li>
+				</ul>
+			</section>
+			<section class="document-section">
+				<h2>Foreign languages</h2>
+				<ul>
+					<li>Russian - native</li>
+					<li>English - intermediate</li>
+				</ul>
+			</section>
+		</div>
+		<div class="column column_main">
+			<section class="document-section">
+				<h2>About me</h2>
+				<p>
+					Having worked for 13 years in the design and development of aircraft engines and power plants, I decided to realize my dream of becoming a programmer. Currently working as a Fullstack developer. I would like to take part in the role of a frontend developer in projects that improve and automate both everyday life (b2c) and the work of companies (b2b). Find an effective friendly team striving to maintain a high development culture and code quality.
+				</p>
+			</section>
+			<section class="document-section">
+				<h2>Skills</h2>
+				<ul class="skills__wrapper">
+					<li>JavaScript (ExtJS)</li>
+					<li>HTML5, CSS3</li>
+					<li>Python (Django, Flask)</li>
+					<li>SQL (Oracle, PostgreSQL)</li>
+					<li>Git (GitHub, GitLab, Jenkins, TeamCity)</li>
+					<li>Design patterns</li>
+					<li>Shell scripting</li>
+					<li>Linux/Unix</li>
+					<li>Go, C++</li>
+				</ul>
+			</section>
+			<section class="document-section">
+				<h2>Code Example</h2>
+				<div class="code__example">
+					<pre><code>
+function deepCount(a){
+  let count = 0;
+  count += typeof(a.length) == "number" ? a.length : 1;
+  for (let i of a) {
+    if (i instanceof Array) count += deepCount(i);
+  }
+  return count;
+}
+					</code></pre>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__inner">
+			<div>
+				<a href="https://github.com/shamiltim" target="_blank" class="footer__social"></a>
+			</div>
+			<div>
+				<a href="https://rs.school/js/"><img src="img/rs.svg" class="footer__image" alt="RS Logo"></a>
+			</div>
+			<div>2021</div>
+		</div>
+	</footer>
+</body>
+</html>
