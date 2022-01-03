@@ -1,0 +1,92 @@
+body {
+	width: 1200px;
+	color: #363636;
+	margin: 0 auto;
+}
+h2 {
+    margin: 5px 20px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.column {
+    width: 40%;
+    background-color: #f3f4f5;
+    padding: 0 50px 0 70px;
+}
+.column_main {
+    width: 60%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+.main {
+    display: flex;
+}
+.document-section {
+    padding-bottom: 20px;
+}
+/* Header */
+    .header__avatar {
+        display: flex;
+        margin: 50px auto;
+    }
+	.header {
+	    display: flex;
+        width: 100%;
+        position: relative;
+    }
+/* Contact */
+    .contact__block {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .contact__image {
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .contact__image_github {
+        background-image: url(../img/github.png);
+    }
+    .contact__image_email {
+        background-image: url(../img/email.png);
+    }
+    .contact__image_map {
+        background-image: url(../img/map.png);
+    }
+/* Code */
+    .code__example {
+        background-color: #f3f4f5;
+    }
+/* Footer */
+    .footer{
+        background-color: #e1e1e1;
+        padding: 10px 0;
+        margin-bottom: -5px;
+    }
+    .footer__inner{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__social{
+        background-image: url(../img/github.png);
+        background-size: cover;
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+    .footer__image{
+        width: 70px;
+        margin: 0 40px;
+    }
